@@ -15,5 +15,5 @@ SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part 
 **Additional Resources:**
 1. Stalls Layout: https://docs.google.com/presentation/d/1USQiZvBIb1P-6ehlmItcD8ptRkDtmiO66Ee6I7h613A/edit#slide=id.p
 2. Example of interactive map (SCGS Carnival map): https://vthere.sg/ipanel/carnival125/
-3. Figma: https://www.figma.com/design/F1WHsjblGMJpqnrLYWvUBQ/Untitled?node-id=1-219&t=9wdF9QMKIt4tXKHS-1
+3. Figma UI/UX Prototype: https://www.figma.com/design/F1WHsjblGMJpqnrLYWvUBQ/Untitled?node-id=1-219&t=9wdF9QMKIt4tXKHS-1
 4. UI/UX Planning Google Docs: https://docs.google.com/document/d/1QTK3jgGbA-N3uuCAt-e6nHQqAQM3YZ0B5xQALPpyJV8/edit
