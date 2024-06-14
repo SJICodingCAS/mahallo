@@ -4,7 +4,8 @@
 SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part of its annual charity event. This repository serves to host a static website which serves as a simple interactive map for the participants of the Carnival. The website is static (fixed) as it only has a 2D map and does not showcase current user location and does not request any other data from the client-side. Details about the features of the map can be accessed in the UI/UX Planning Google Docs and the Figma prototype.
 
 ## Timeline
-<img width="692" alt="image" src="https://github.com/Braydenchangjy/mahallo/assets/142781671/cb184e8b-e76e-41cc-858b-e5c8e8dfde5d">
+<img width="658" alt="image" src="https://github.com/Braydenchangjy/mahallo/assets/142781671/49f4c9ad-4d7a-41d9-84f3-6d992869a1ea">
+
 
 **Additional Instructions for maneuvoring Github**
 1. If you are unable to make changes please make a GitHub account and dm Brayden your username
