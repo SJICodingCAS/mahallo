@@ -1,5 +1,4 @@
 # Mahallo Carnival Interactive Map
-> "The Future is Now."
 
 ## Description
 SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part of its annual charity event. This repository serves to host a static website which serves as a simple interactive map for the participants of the Carnival. The website is static (fixed) as it only has a 2D map and does not showcase current user location and does not request any other data from the user-side. 
