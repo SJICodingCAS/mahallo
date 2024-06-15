@@ -7,13 +7,13 @@ SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part 
 <img width="658" alt="image" src="https://github.com/Braydenchangjy/mahallo/assets/142781671/49f4c9ad-4d7a-41d9-84f3-6d992869a1ea">
 
 
-**Additional Instructions for maneuvoring Github**
+## Additional Instructions for maneuvoring Github
 1. If you are unable to make changes please make a GitHub account and dm Brayden your username
 2. For those in the UI/UX team, you will not have to make changes to the GitHub. You can plan the features of the website on the UI/UX Planning Google Docs and edit the Figma prototype accordingly. 
 3. For those in the Front-end team, you will have to familiarise yourself with the basic methods of using GitHub. To keep it simple we will only have one branch and only be using the "Code" and "Issues" tabs in GitHub
 4. Feel free to post any code issues or questions you have in the Issues tab and contribute meaningful discussions
 
-**Additional Resources:**
+## Additional Resources
 1. Stalls Layout: https://docs.google.com/presentation/d/1USQiZvBIb1P-6ehlmItcD8ptRkDtmiO66Ee6I7h613A/edit#slide=id.p
 2. Example of interactive map (SCGS Carnival map): https://vthere.sg/ipanel/carnival125/
 3. Figma UI/UX Prototype: https://www.figma.com/design/F1WHsjblGMJpqnrLYWvUBQ/Untitled?node-id=1-219&t=9wdF9QMKIt4tXKHS-1
