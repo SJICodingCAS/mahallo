@@ -22,16 +22,25 @@ SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part 
 ## Individual teams
 ### Project managers 
 • Brayden
+
 • Trakal 
 
 ### UI/UX team
 • Jack - team lead
+
 • Hayden 
+
 • Dishnu
+
 • Rohith
+
 
 ### Developer's team
 • Sidharth - team lead
+
 • Anthony
+
 • Marcus 
+
 • Timothy
+
