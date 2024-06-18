@@ -18,3 +18,20 @@ SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part 
 2. Example of interactive map (SCGS Carnival map): https://vthere.sg/ipanel/carnival125/
 3. Figma UI/UX Prototype: https://www.figma.com/design/F1WHsjblGMJpqnrLYWvUBQ/Untitled?node-id=1-219&t=9wdF9QMKIt4tXKHS-1
 4. UI/UX Planning Google Docs: https://docs.google.com/document/d/1QTK3jgGbA-N3uuCAt-e6nHQqAQM3YZ0B5xQALPpyJV8/edit
+
+## Individual teams
+### Project managers 
+• Brayden
+• Trakal 
+
+### UI/UX team
+• Jack - team lead
+• Hayden 
+• Dishnu
+• Rohith
+
+### Developer's team
+• Sidharth - team lead
+• Anthony
+• Marcus 
+• Timothy
