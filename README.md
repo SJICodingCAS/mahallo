@@ -16,9 +16,10 @@ SJI's Mahallo Carnival (20 July 2024) will be hosting different schools as part 
 ## Additional Resources
 1. Stalls Layout: https://docs.google.com/presentation/d/1USQiZvBIb1P-6ehlmItcD8ptRkDtmiO66Ee6I7h613A/edit#slide=id.p
 2. Stalls descriptions: https://docs.google.com/document/d/1YMqfEUpQfaScTpgxClkDNLSuD_hQjLw95I1mjDnE3gY/edit
-3. Example of interactive map (SCGS Carnival map): https://vthere.sg/ipanel/carnival125/
-4. Figma UI/UX Prototype: https://www.figma.com/design/F1WHsjblGMJpqnrLYWvUBQ/Untitled?node-id=1-219&t=9wdF9QMKIt4tXKHS-1
-5. UI/UX Planning Google Docs: https://docs.google.com/document/d/1QTK3jgGbA-N3uuCAt-e6nHQqAQM3YZ0B5xQALPpyJV8/edit
+3. Performance timings and descriptions: https://docs.google.com/spreadsheets/d/1pfUntoTpAG7A1JoPv58XMHHKmpjDlycDzzWbR3iOsxQ/edit?gid=360503357#gid=360503357
+4. Example of interactive map (SCGS Carnival map): https://vthere.sg/ipanel/carnival125/
+5. Figma UI/UX Prototype: https://www.figma.com/design/F1WHsjblGMJpqnrLYWvUBQ/Untitled?node-id=1-219&t=9wdF9QMKIt4tXKHS-1
+6. UI/UX Planning Google Docs: https://docs.google.com/document/d/1QTK3jgGbA-N3uuCAt-e6nHQqAQM3YZ0B5xQALPpyJV8/edit
 
 ## Individual teams
 ### Project managers 
