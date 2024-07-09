@@ -1,0 +1,27 @@
+.home-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/backgrounds/landing_page_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.home-header{
+    text-align:center;
+}
+
+button{
+    background-image: url('./images/homepage_button.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+    cursor:pointer;
+    width: 363px;
+    height: 63px;
+    color: transparent;
+}
