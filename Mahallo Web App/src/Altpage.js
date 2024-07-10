@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './Altpage.css'
 
-
-function AltPage(){
+function AltPage({goToHome}){
     return (
         <div className="alt-page">
-            <h1>test</h1>
-            <Link to ='/'>
-                <button>Back</button>
-            </Link>
+            <header className='alt-header'>
+             <h1>test</h1>
+             <p> test</p>
+              <button className = 'alt-button' onClick={goToHome}>Back</button>
+            </header>
         </div>
     );
 };

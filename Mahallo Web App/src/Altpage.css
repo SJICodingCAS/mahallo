@@ -1,20 +1,20 @@
-.home-page{
+.alt-page{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./images/backgrounds/landing_page_background.png');
+    background-image: url('./images/backgrounds/subpage_background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color:white;
 }
 
-.home-header{
-    text-align:center;
+.alt-header{
+    text-align: center;
 }
 
-.home-button{
+.alt-button{
     background-image: url('./images/homepage_button.png');
     background-size: cover;
     background-position: center;
