@@ -1,27 +1,28 @@
-.home-page{
+.field-page{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./images/backgrounds/landing_page_background.png');
+    background-image: url('../images/maps/labelled_map.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color:white;
 }
 
-.home-header{
-    text-align:center;
+.field-header{
+    text-align: center;
 }
 
-.home-button{
-    background-image: url('./images/homepage_button.png');
+.back-button{
+    background-image: url('../images/icons/back_icon-removebg-preview.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     border:none;
     cursor:pointer;
-    width: 363px;
-    height: 63px;
+    width: 384px;
+    height: 408px;
     color: transparent;
+    transform: rotate(270deg);
 }

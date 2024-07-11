@@ -1,0 +1,40 @@
+.alt-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/maps/labelled_map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.alt-header{
+    text-align: center;
+    color:cyan;
+}
+
+.back-button{
+    background-image: url('../images/icons/back_icon-removebg-preview.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border:none;
+    cursor:pointer;
+    width: 384px;
+    height: 408px;
+    color: transparent;
+}
+
+.field-button{
+    background-image: url('../images/pins/other_pin-removebg-preview.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border:none;
+    cursor:pointer;
+    width: 260px;
+    height: 257px;
+    color: transparent;
+}
