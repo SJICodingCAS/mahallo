@@ -1,21 +1,21 @@
-.alt-page{
+.home-page{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./images/backgrounds/subpage_background.png');
+    background-image: url('../images/backgrounds/landing_page_background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color:white;
 }
 
-.alt-header{
-    text-align: center;
+.home-header{
+    text-align:center;
 }
 
-.alt-button{
-    background-image: url('./images/homepage_button.png');
+.home-button{
+    background-image: url('../images/homepage_button.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
