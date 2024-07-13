@@ -14,14 +14,17 @@
     text-align:center;
 }
 
-.image-container {
-    background-color: transparent;
-    background-image: url(../images/Mahalo_2024_Logo-removebg-preview.png);
+.image-container{
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    color:white;
-  }
+    border:none;
+    cursor:pointer;
+    width: 363px;
+    height: 63px;
+    color: transparent;
+    background-image: url('../images/Mahalo_2024_Logo-removebg-preview.png');
+}
 
 .home-button{
     background-image: url('../images/homepage_button.png');
