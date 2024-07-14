@@ -3,7 +3,7 @@ import './App.css';
 import {useState} from 'react';
 import HomePage from './Pages/Homepage'
 import { AltPage } from './Pages/Altpage';
-import Field from './Pages/Block K';
+import Field from './Pages/Field';
 import Level2 from './Pages/Level2';
 import F from './Pages/Block F';
 import K from './Pages/Block K';

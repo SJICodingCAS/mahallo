@@ -1,11 +1,11 @@
 import React from 'react';
-import './Field.css'
+import './Block K.css'
 
-function Field({goToAlt}){
+function K({goToAlt}){
     return (
-        <div className="field-page">
-            <header className='field-header'>
-             <h1>Field</h1>
+        <div className="K-page">
+            <header className='K-header'>
+             <h1>Block K</h1>
              <p> Example of a location</p>
               <button className = 'back-button' onClick={goToAlt}>Back</button>
             </header>
@@ -13,4 +13,4 @@ function Field({goToAlt}){
     );
 };
 
-export default Field;
+export default K;

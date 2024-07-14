@@ -5,9 +5,9 @@ function HomePage({goToAlt}){
     return(
         <div className="home-page">
             <header className='home-header'>
-            <image className='image-container'>Mahallo Logo</image>
                 <h1>Website</h1>
                 <p>Test</p>
+                <container className='logo-image'>logo</container>
                 <button className='home-button' onClick={goToAlt}>Go to alt page</button>
             </header>
         </div>
