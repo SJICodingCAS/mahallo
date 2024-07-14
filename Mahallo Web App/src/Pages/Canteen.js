@@ -1,11 +1,11 @@
 import React from 'react';
-import './ISH Lvl 1.css'
+import './Canteen.css'
 
-function ISH1({goToAlt}){
+function Canteen({goToAlt}){
     return (
-        <div className="ish1-page">
-            <header className='ish1-header'>
-             <h1>ISH level 1</h1>
+        <div className="canteen-page">
+            <header className='canteen-header'>
+             <h1>canteen</h1>
              <p> Example of a location</p>
               <button className = 'back-button' onClick={goToAlt}>Back</button>
             </header>
@@ -13,4 +13,4 @@ function ISH1({goToAlt}){
     );
 };
 
-export default ISH1;
+export default Canteen;
