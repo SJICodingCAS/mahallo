@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {CSSTransition} from 'react-transition-group';
 import {useState} from 'react';
 import HomePage from './Pages/Homepage'
 import { AltPage } from './Pages/Altpage';
@@ -71,9 +72,19 @@ function App() {
   };
   return (
     <div className="App">
-      {renderView()}
+      <CSSTransition
+        key={currentView}
+        in={true}
+        appear={true}
+        timeout={500}
+        classNames="fade"
+      >
+        <div className="page">
+          {renderView()}
+        </div>
+      </CSSTransition>
     </div>
   );
-};
+}
 
 export default App;
