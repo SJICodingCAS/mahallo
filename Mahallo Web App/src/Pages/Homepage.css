@@ -1,5 +1,6 @@
 .home-page{
-    height: 100vh;
+    width: 393px;
+    height: 794px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,30 +11,55 @@
     color:white;
 }
 
-.home-header{
+.home-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-header h1 {
     text-align:center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    font-size: 35;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.home-header p {
+    text-align:center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20;
+    font-weight: 600;
+    color: black;
+    margin-top: 0;
 }
 
 .logo-image{
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    border:none;
-    cursor:pointer;
-    width: 363px;
-    height: 63px;
-    color: transparent;
     background-image: url('../images/Mahalo_2024_Logo-removebg-preview.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border:none;
+    width: 357px;
+    height: 357px;
+    color: transparent;
+    margin-bottom: -30px;
 }
 
 .home-button{
     background-image: url('../images/homepage_button.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: transparent;
     border:none;
     cursor:pointer;
-    width: 363px;
+    width: 346px;
     height: 63px;
     color: transparent;
 }
