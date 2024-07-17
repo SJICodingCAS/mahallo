@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        #map-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            cursor: grab;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .pin {
+            position: absolute;
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+        }
+        /* Define the positions of the pins */
+        #pin1 { top: 20%; left: 30%; }
+        #pin2 { top: 40%; left: 50%; }
+        #pin3 { top: 60%; left: 70%; }
+        #pin4 { top: 60%; left: 70%; }
+        #pin5 { top: 60%; left: 70%; }
+        #pin6 { top: 60%; left: 70%; }
+        #pin7 { top: 60%; left: 70%; }
+      
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <img id="map" src="original_map.png" alt="Map">
+        <img id="pin1" class="pin" src="Game_icon-removebg-preview.png" alt="Pin 1" onclick="location.href='page1.html'">
+        <img id="pin2" class="pin" src="Game_pin-removebg-preview.png" alt="Pin 2" onclick="location.href='page2.html'">
+        <img id="pin3" class="pin" src="pin-icon.png" alt="Male_toilet_pin-removebg-preview.png" onclick="location.href='page3.html'">
+        <img id="pin3" class="pin" src="pin-icon.png" alt="both_gender_toilet_pin-removebg-preview.png" onclick="location.href='page3.html'">
+        <img id="pin3" class="pin" src="pin-icon.png" alt="female_toilet_pin-removebg-preview.png" onclick="location.href='page3.html'">
+        <img id="pin3" class="pin" src="pin-icon.png" alt="food_icon-removebg-preview.png" onclick="location.href='page3.html'">
+        <img id="pin3" class="pin" src="pin-icon.png" alt="other_pin-removebg-preview.png" onclick="location.href='page3.html'">
+    </div>
+
+    <script>
+        const mapContainer = document.getElementById('map-container');
+        const map = document.getElementById('map');
+
+        let isDragging = false;
+        let startX, startY, startLeft, startTop;
+
+        mapContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX;
+            startY = e.clientY;
+            startLeft = parseInt(window.getComputedStyle(map).left, 10);
+            startTop = parseInt(window.getComputedStyle(map).top, 10);
+            mapContainer.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            const dx = e.clientX - startX;
+            const dy = e.clientY - startY;
+            map.style.left = `${startLeft + dx}px`;
+            map.style.top = `${startTop + dy}px`;
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            mapContainer.style.cursor = 'grab';
+        });
+    </script>
+</body>
+</html>
