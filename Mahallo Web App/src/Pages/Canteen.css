@@ -6,7 +6,7 @@
     justify-content: center;
     background-image: url('../images/maps/Canteen.png');
     background-size: cover;
-    background-position: calc(100% - 50px) calc(100% - 10px);
+    background-position: calc(100% - 360px) calc(100% - 10px); /* change later (cropping image and centering it)*/
     background-repeat: no-repeat;
     color: white;
 }
@@ -28,12 +28,12 @@
 }
 
 .canteen-header > div {
-    flex: 1; /* Takes up remaining space */
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center children vertically */
-    justify-content: center; /* Center children horizontally */
-    text-align: center; /* Center the text horizontally */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .canteen-header h1 {
@@ -42,23 +42,67 @@
     text-align: center;
 }
 
-.canteen-header p {
+.back-button{
+    background-image: url('../images/icons/back_icon-removebg-preview.png');
+    background-color: transparent;
+    height: 43px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 43px;
+}
+
+.canteen-bottom-banner {
+    background-image: url('../images/backgrounds/subpage_background.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    height: 500px; /* edit height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canteen-bottom-banner > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.canteen-bottom-banner h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.canteen-bottom-banner p {
     margin: 0;
     text-align: center;
 }
 
-.back-button{
-    background-image: url('../images/icons/back_icon-removebg-preview.png');
-    background-position: top left;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border:none;
-    cursor:pointer;
-    width: 50px;
-    height: 50px;
-    color: transparent; 
-    transform: rotate(270deg);
-    margin-right: auto;
-    margin-left: 0px;
+.food-logo {
+    background-image: url("../images/pins/food_icon-removebg-preview.png");
+    background-size: contain;
+    background-position: left;
+    align-items: left;
+    height: 100px;
+    width: 100px;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+    background-color: rgba(228, 197, 30);
+    border-radius: 15%;
 }
