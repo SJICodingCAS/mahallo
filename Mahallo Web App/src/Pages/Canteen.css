@@ -9,6 +9,7 @@
     background-position: calc(100% - 360px) calc(100% - 10px); /* change later (cropping image and centering it)*/
     background-repeat: no-repeat;
     color: white;
+    font-family: "Open Sans", sans-serif;
 }
 
 .canteen-header {
@@ -46,11 +47,10 @@
     background-image: url('../images/icons/back_icon-removebg-preview.png');
     background-color: transparent;
     height: 43px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
     width: 43px;
+    left: 0;
+    top: 0;
+
 }
 
 .canteen-bottom-banner {

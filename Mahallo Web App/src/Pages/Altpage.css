@@ -39,8 +39,8 @@
 }
 
 .alt-back-button-container{
-    width: 43px;
-    height: 43px;
+    width: 53px;
+    height: 53px;
     display: flex;
     background-color: white;
     border-radius: 50%;
@@ -66,8 +66,8 @@
 }
 
 .performance-button-container{
-    width: 43px;
-    height: 43px;
+    width: 53px;
+    height: 53px;
     display: flex;
     background-color: white;
     border-radius: 50%;
@@ -103,3 +103,4 @@
     height: 257px;
     color: transparent;
 }
+

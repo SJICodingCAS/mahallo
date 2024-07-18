@@ -11,7 +11,7 @@ function AltPage({goToHome,goToField,goToTrack,goToFoyer,goToCanteen,goToOval,go
                         <div className='banner'></div>
                     </div>
                     <div className='performance-button-container'>
-                        <button className = 'performance-button' onClick={goToPerformance}>To Performance</button>
+                    <button className = 'performance-button' onClick={goToPerformance}>To Performance</button>
                     </div>
                     <div className='alt-back-button-container'>
                         <button className = 'alt-back-button' onClick={goToHome}>Back</button>
