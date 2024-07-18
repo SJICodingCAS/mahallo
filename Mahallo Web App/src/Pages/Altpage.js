@@ -7,10 +7,18 @@ function AltPage({goToHome,goToField,goToTrack,goToFoyer,goToCanteen,goToOval,go
         <TransformWrapper defaultScale={1} defaultPositionX={100} defaultPositionY={200}>
             <TransformComponent>
                 <div className="alt-page">
+                    <div className ='banner-container'>
+                        <div className='banner'></div>
+                    </div>
+                    <div className='performance-button-container'>
+                        <button className = 'performance-button' onClick={goToPerformance}>To Performance</button>
+                    </div>
+                    <div className='alt-back-button-container'>
+                        <button className = 'alt-back-button' onClick={goToHome}>Back</button>
+                    </div>
                     <header className='alt-header'>
                         <h1>Main map page</h1>
                         <p>This will contain the main map with all pins/icons</p>
-                        <button className = 'back-button' onClick={goToHome}>Back</button>
                         <button className = 'field-button' onClick={goToField}>To Field</button>
                         <button className = 'track-button' onClick={goToTrack}>To Track</button>
                         <button className = 'foyer-button' onClick={goToFoyer}>To Foyer</button>
@@ -19,7 +27,6 @@ function AltPage({goToHome,goToField,goToTrack,goToFoyer,goToCanteen,goToOval,go
                         <button className = 'ish1-button' onClick={goToISH1}>To ISH1</button>
                         <button className = 'F-button' onClick={goToF}>To F</button>
                         <button className = 'K-button' onClick={goToK}>To K</button>
-                        <button className = 'performance-button' onClick={goToPerformance}>To Performance</button>
                         <button className='switch-button' onClick={switchFloor}>Switch Floor</button>
                     </header>
                 </div>

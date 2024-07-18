@@ -14,7 +14,7 @@ import Foyer from './Pages/Foyer';
 import ISH1 from './Pages/ISH Lvl 1';
 import ISH2 from './Pages/ISH Lvl 2';
 import Oval from './Pages/Oval';
-import Track from './Pages/Block F';
+import Track from './Pages/Track';
 import Performance from './Pages/Performances';
 
 

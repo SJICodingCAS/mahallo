@@ -1,5 +1,6 @@
 .alt-page{
-    height: 100vh;
+    width: 393px;
+    height: 794px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,21 +11,85 @@
     color:white;
 }
 
-.alt-header{
-    text-align: center;
-    color:black;
+.banner-container {
+    width: 230px;
+    height: 65px;
+    display: flex;
+    background-color: white;
+    border-radius: 0 0 30px 30px; 
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
 }
 
-.back-button{
+.banner{
+    background-image: url('../images/mahalo_banner.png');
+    width: 125px;
+    height: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alt-header{
+    text-align: center;
+    color:transparent;
+}
+
+.alt-back-button-container{
+    width: 43px;
+    height: 43px;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-back-button{
     background-image: url('../images/icons/back_icon-removebg-preview.png');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
     border:none;
     cursor:pointer;
-    width: 384px;
-    height: 408px;
-    color: transparent;
+    width: 43px;
+    height: 43px;
+    background-color: transparent;
+    color:transparent
+}
+
+.performance-button-container{
+    width: 43px;
+    height: 43px;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.performance-button{
+    background-image: url('../images/icons/performances_icon-removebg-preview.png');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border:none;
+    cursor:pointer;
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    color:transparent
 }
 
 .field-button{
