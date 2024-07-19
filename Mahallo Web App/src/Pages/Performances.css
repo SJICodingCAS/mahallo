@@ -1,6 +1,6 @@
 .performances{
-    width: 393px;
-    height: 794px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     background-image: url('../images/backgrounds/landing_page_background.png');
@@ -64,7 +64,7 @@
 }
 
 .scroller {
-    width: 393px;
+    width: 100vw;
     position: relative;
     left: 0px;
     display: flex;
